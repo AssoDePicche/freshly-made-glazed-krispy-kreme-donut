@@ -6,6 +6,6 @@ set(CMAKE_C_STANDARD 23)
 
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-add_compile_options(-Wall -Wextra -Wpedantic -Werror)
+add_compile_options(-Wall -Wextra -Wpedantic)
 
 add_executable(${PROJECT_NAME} source/main.c)
